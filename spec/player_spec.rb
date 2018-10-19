@@ -1,4 +1,4 @@
-require 'player'
+require 'player.rb'
 
 describe Player do
   subject(:dave) { Player.new('Dave') }
