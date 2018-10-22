@@ -24,6 +24,7 @@ RSpec.configure do |config|
   require 'capybara/rspec'
   require 'rspec'
   require 'features/web_helpers'
+  config.include Capybara::DSL
 
   # tell Capybara about our app class
 Capybara.app = Battle
